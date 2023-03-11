@@ -2,7 +2,6 @@ const fs = require('fs');
 const http = require('http');
 const process = require('process');
 const express = require('express');
-const logGetter = require('./logGetter.js');
 
 const app = express();
 
