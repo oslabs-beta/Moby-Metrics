@@ -81,7 +81,6 @@ const Dashboard = (props: Props) => {
           minRows={5}
           value={JSON.stringify(containers, undefined, 2) ?? ''}/>
       </Stack>
-        <ContainerDisplay/>
     </Box>
   );
 };
