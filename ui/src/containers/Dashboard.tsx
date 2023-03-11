@@ -15,7 +15,10 @@ import {
   ArcElement,
 } from 'chart.js';
 import { Bar } from 'react-chartjs-2';
+//import Bar from '../components/Chart_Bar';
 import { Doughnut } from 'react-chartjs-2';
+// import Doughnut from '../components/Chart-Doughnut';
+
 import { faker } from '@faker-js/faker';
 
 ChartJS.register(
