@@ -26,7 +26,7 @@ import {
   PieChartOutlined,
 } from '@mui/icons-material';
 import StorageIcon from '@mui/icons-material/Storage';
-import pandaWhale from '../assets/pandaWhale.png';
+import pandaWhale from '../assets/pandawhale.png';
 
 const navItems = [
   { text: 'Dashboard', icon: <HomeOutlined /> },
