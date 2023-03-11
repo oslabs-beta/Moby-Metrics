@@ -2,6 +2,7 @@ import React from 'react';
 import { Box, Stack, TextField, Typography } from '@mui/material';
 import Button from '@mui/material/Button';
 import { createDockerDesktopClient } from '@docker/extension-api-client';
+import ContainerDisplay from '../components/ContainerDisplay'
 type Props = {};
 
 const client = createDockerDesktopClient();
@@ -80,6 +81,7 @@ const Dashboard = (props: Props) => {
           minRows={5}
           value={JSON.stringify(containers, undefined, 2) ?? ''}/>
       </Stack>
+        <ContainerDisplay/>
     </Box>
   );
 };
